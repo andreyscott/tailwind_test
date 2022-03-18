@@ -27,7 +27,7 @@ export default function IndexPage() {
                                                     <span className="ml-2 font-bold">Dashboard</span>
                                                 </div>
                                             </li>
-                                            <li className="flex xl:hidden flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none justify-center">
+                                            <li className="flex xl:hidden flex-col cursor-pointer text-gray-600 text-sm leading-3 tracking-normal py-2 hover:text-indigo-700 focus:text-indigo-700 focus:outline-none flex justify-center">
                                                 <div className="flex items-center">
                                                     <svg xmlns="http://www.w3.org/2000/svg" className="icon icon-tabler icon-tabler-puzzle" width={20} height={20} viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                         <path stroke="none" d="M0 0h24v24H0z" />
@@ -237,7 +237,7 @@ export default function IndexPage() {
                     {/*Mobile responsive sidebar*/}
                     <div className={show ? "w-full xl:hidden h-full absolute z-40  transform  translate-x-0 " : "   w-full xl:hidden h-full absolute z-40  transform -translate-x-full"}>
                         <div className="bg-gray-800 opacity-50 w-full h-full" onClick={() => setShow(!show)} />
-                        <div className="w-64 z-40 fixed overflow-y-auto z-40 top-0 bg-white shadow h-full flex-col justify-between xl:hidden pb-4 transition duration-150 ease-in-out">
+                        <div className="w-64 fixed overflow-y-auto z-40 top-0 bg-white shadow h-full flex-col justify-between xl:hidden pb-4 transition duration-150 ease-in-out">
                             <div className="px-6 h-full">
                                 <div className="flex flex-col justify-between h-full w-full">
                                     <div>
